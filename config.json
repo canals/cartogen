@@ -1,0 +1,57 @@
+{
+  "svgdir" : "./svg",
+  "width" : "212.59842",
+  "height": "212.59842",
+
+  "domaine" : {
+    "alimentaire" : "alimentaire.svg",
+    "cosmetique" : "cosmetique.svg",
+    "meuble" : "meubles.svg",
+    "techno" : "technologie.svg",
+    "vetement" : "vetements.svg",
+    "voiture" : "voiture.svg",
+    "defaut" : "voiture.svg"
+  },
+
+  "cible" : {
+    "etudiant": {
+      "picto": "#00ffb3",
+      "typo": "#000000"
+    },
+    "jeune": {
+      "picto": "#ffe600",
+      "typo": "#0097b3"
+    },
+    "menagere": {
+      "picto": "#ffb3b3",
+      "typo": "#b259b2"
+    },
+    "3age" : {
+      "picto" : "#8ce58a",
+      "typo": "#009800"
+    },
+    "enfant" : {
+      "picto" : "#ffff00",
+      "typo" : "#ff00ff"
+    },
+    "ados" : {
+      "picto" : "#ffe700",
+      "typo" : "#ff4141"
+    },
+    "defaut" : {
+      "picto": "#ffb3b3",
+      "typo": "#b259b2"
+    }
+  },
+
+  "esprit" : {
+      "tendance" : "quicksand",
+      "sympa" : "pacifico",
+      "serieux" : "Berenis ADF pro",
+      "luxe" : "FreightBigBold",
+      "classe" : "Abril fatface",
+      "fun" : "crickx",
+      "defaut" : "crickx"
+    }
+
+}
