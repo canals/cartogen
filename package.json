@@ -1,0 +1,24 @@
+{
+  "name": "cartogen",
+  "version": "1.0.0",
+  "description": "un générateur de cartes à partir de picto svg",
+  "main": "cartogen.js",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canals/cartogen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canals/cartogen/issues"
+  },
+  "homepage": "https://github.com/canals/cartogen#readme"
+}
