@@ -94,7 +94,7 @@ var global = (function () {
 
                 //console.log(bandofile);
                 //console.log(bando);
-                console.log(bando);
+                //console.log(bando);
 
 
                 var svg = fs.readFileSync(getSvgDir()+'/'+options.domaine, 'utf8')
