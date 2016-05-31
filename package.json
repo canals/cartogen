@@ -1,8 +1,8 @@
 {
-  "name": "cartogen",
+  "name": "global-cli",
   "version": "1.0.0",
-  "description": "un générateur de cartes à partir de picto svg",
-  "main": "cartogen.js",
+  "description": "le générateur de cartes global en ligne de commande",
+  "main": "global.js",
   "dependencies": {
     "commander": "^2.9.0"
   },

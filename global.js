@@ -3,7 +3,7 @@
  */
 
 var program = require('commander');
-var pictogen = require('./pictogen').pictogen;
+var glob = require('./globalgen/global').global;
 
 
 
@@ -51,10 +51,11 @@ var app = (function() {
                         'utilise des valeurs par défauts si option absente')
                 .option('-f, --file <f>', 'nom du fichier de configuration - par défaut ./config.json', config)
                 .option('-d, --domaine <s>', 'pour choisir  le domaine parmi : '+
-                        'alimentaire | cosmetique | meuble  | techno | vetement | voiture ', domaine)
+                        'alimentaire | cosmetique | mobilier  | techno | textile | auto ', domaine)
                 .option('-c, --cible <s>', 'pour choisir  la cible (couleurs) parmi : '+
                         'etudiant | jeune | menagere | 3age | enfant | ados ', cible)
-                .option('-e, --esprit <s>', 'pour choisir l\'esprit (voir valeur dans config.json) - polices installées', esprit)
+                .option('-e, --esprit <s>', 'pour choisir l\'esprit (polices installées) : '+
+                        'classique | luxe | intemporel | vintage | sport | contemporain', esprit)
                 .option('-t, --text <s>', 'texte à insérer', texte)
                 .option('-o, --output <f>', 'nom du fichier de sortie - par défaut output', output);
 
@@ -69,8 +70,8 @@ var app = (function() {
 
 try {
     var opt = app.parse();
-    pictogen.init(opt.config, opt);
-    pictogen.do();
+    glob.init(opt.config, opt);
+    glob.do();
 } catch (err) {
     console.log('erreur : '+err);
 
